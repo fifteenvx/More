@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAV*/
+#navbar {
+  background-color: #0b0b0b;
+}
+#navbar a {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+
+/*--------------------------------------------------------------
+# header
+--------------------------------------------------------------*/
+#header .container-fluid {
+  background-image: url(../media/back/back_head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#header {
+  margin-top: 50px;
+}
+
+/*--------------------------------------------------------------
+# contador
+--------------------------------------------------------------*/
+#contador .container-fluid {
+  background-image: url(../media/back/back_contador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contador .container .contador {
+  text-align: center;
+}
+#contador .container .contador .cartel {
+  background-color: #ebb4b7;
+  border-top: 5px solid #d59798;
+  opacity: 0.7;
+  width: 130px;
+  margin: 5px;
+}
+#contador .container .contador img {
+  height: 100px;
+}
+#contador .container .contador p {
+  color: #fc7291;
+  font-size: 24px;
+  font-family: "DM Serif Display", serif;
+  margin: 0px;
+}
+#contador .container .contador h2 {
+  color: #323230;
+  font-size: 60px;
+  font-family: "Imperial Script", cursive;
+  margin: 0px;
+}
+#contador .container .contador h3 {
+  color: #000000;
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 16px;
+  padding-bottom: 10px;
+}
+#contador .container .contador h4 {
+  color: #2a2a2a;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  margin: 0px;
+}
+#contador .container .contador #dias {
+  font-size: 70px;
+  font-family: "Manrope", sans-serif;
+  color: #ff0000;
+}
+#contador .container .contador #horas {
+  font-size: 70px;
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+}
+#contador .container .contador #minutos {
+  font-size: 70px;
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+}
+#contador .container .contador #segundos {
+  font-size: 70px;
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+}
+
+/*--------------------------------------------------------------
+# Frase
+--------------------------------------------------------------*/
+#frase .container-fluid {
+  background-image: url(../media/back/img1NB.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#frase .container {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#frase .container img {
+  text-align: center;
+  width: 450px;
+}
+
+/*--------------------------------------------------------------
+# RSVP
+--------------------------------------------------------------*/
+#rsvp .container-fluid {
+  background-image: url(../media/back/back_ws2.jpg);
+  background-position: cover;
+}
+#rsvp .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#rsvp .container h2 {
+  font-family: "Imperial Script", cursive;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+}
+#rsvp .container h3 {
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+}
+#rsvp .container p {
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+#rsvp .container img {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# REGALOS
+--------------------------------------------------------------*/
+#regalos .container-fluid {
+  background-color: #282828;
+}
+#regalos .container {
+  background: #282828;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#regalos .container .card {
+  display: flex;
+  justify-content: center;
+}
+#regalos .container h2 {
+  font-family: "Imperial Script", cursive;
+  color: #ffffff;
+  font-size: 38px;
+  text-align: center;
+}
+#regalos .container h3 {
+  font-family: "Imperial Script", cursive;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+#regalos .container p {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 20px;
+}
+#regalos .container img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# FOTOS
+--------------------------------------------------------------*/
+#fotos .container-fluid {
+  background-image: url(../media/back/back_fotos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#fotos .container h2 {
+  font-family: "Imperial Script", cursive;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*--------------------------------------------------------------
+# SALON
+--------------------------------------------------------------*/
+#salon .container-fluid {
+  background-color: #000000;
+}
+#salon .container {
+  padding-bottom: 30px;
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+#salon .container .card {
+  background-color: #000000;
+}
+#salon .container h2 {
+  font-family: "Imperial Script", cursive;
+  color: #ffffff;
+  font-size: 38px;
+}
+#salon .container p {
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+#salon .container h3 {
+  font-size: 12px;
+}
+
+/*--------------------------------------------------------------
+# Mapa
+--------------------------------------------------------------*/
+#mapa .container-fluid {
+  background-color: #f1f3f4;
+}
+
+/*--------------------------------------------------------------
+# Vestimenta
+--------------------------------------------------------------*/
+#vestimenta .container-fluid {
+  background-image: url(../media/back/back_vestimanta_sm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#vestimenta .container {
+  text-align: center;
+}
+#vestimenta .container h2 {
+  font-family: "Imperial Script", cursive;
+  color: #060606;
+  font-size: 36px;
+  text-align: center;
+}
+#vestimenta .container p {
+  font-family: "Manrope", sans-serif;
+  color: #080808;
+  font-size: 16px;
+}
+#vestimenta .container img {
+  display: inline;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# nofaltes
+--------------------------------------------------------------*/
+#nofaltes .container-fluid {
+  background-image: url(../media/back/back_losespero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nofaltes .container {
+  text-align: center;
+}
+#nofaltes .container h2 {
+  text-align: center;
+  color: white;
+  font-family: "Imperial Script", cursive;
+  font-size: 36px;
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+#footer .container-fluid {
+  background-color: #101010;
+}
+#footer .container {
+  text-align: center;
+}
+#footer .container h2 {
+  text-align: center;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+}/*# sourceMappingURL=estilos.css.map */
