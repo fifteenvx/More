@@ -1,0 +1,87 @@
+npm init ------->   npm install
+se crea el package.json
+
+copiar al package.json
+"build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+nombre de archivos
+css/estilos.css
+scss/estilos.scss
+
+instalar nodemon
+npm install node-sass nodemon
+
+run
+npm run build-css
+npm run watch-css
+
+--------------------------------------------
+
+git
+git init
+
+cambiar de master a main
+git branch -m main
+
+agregar
+git add .
+
+crear commit
+git commit -m inicial
+
+copiar link de github
+git remote add origin https://github.com/diegogomez311/DNP.git
+
+push
+git push -u origin main
+
+-----
+
+crear rama
+git branch rama_inicial
+
+cambiar de rama
+git checkout -m rama_inicial
+
+merge
+git merge + nombre rama
+
+
+
+
+
+
+
+---------------------------------
+
+ver estado
+git status
+
+agregar
+git add .
+
+crear commit
+git commit -m inicial
+
+crear commit con espacios
+git commit -m "commit inicial"
+
+
+para ver las ramas
+git branch
+
+crear rama
+git branch rama_inicial
+
+cambiar de rama
+git checkout -m rama_inicial
+
+moverse entre ramas
+git checkout rama_inicial
+
+ver los commits
+git commit log
+
+borrar rama
+git branch -D rama_inicial
