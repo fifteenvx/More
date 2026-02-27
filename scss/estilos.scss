@@ -31,15 +31,16 @@
   .container-fluid{
     background-image: url(../media/back/back_contador.jpg) ;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
   .container{
     .contador{    
       text-align: center; 
       .cartel{      
-        background-color: #818181;      
-        border-top: 5px solid #1d1c1c;
-        opacity: 0.7;        
+        background-color: #180e01;      
+        border-top: 5px solid #ca7612;
+        opacity: 0.9;        
         width: 130px;
         margin: 5px;
       }
@@ -53,20 +54,20 @@
         margin: 0px;
       }
       h2{
-        color: #323230;
+        color: #ca7612;
         font-size: 60px;
         font-family: 'Imperial Script', cursive;
         margin: 0px;
       }
       h3{
-        color: #000000;
-        font-size: 30px;
+        color: #ca7612;
+        font-size: 22px;
         font-family: 'Manrope', sans-serif;
         padding-bottom: 16px;
         padding-bottom: 10px;
       }
       h4{
-        color: #2a2a2a;
+        color: #ca7612;
         font-size: 20px;
         font-family: 'Manrope', sans-serif;
         margin: 0px;
@@ -75,17 +76,17 @@
         font-size: 70px;
         font-family: 'Manrope', sans-serif,;
         font-weight: bold;
-        color: #000000;   
+        color: #ca7612;   
       }
       #horas{
         font-size: 70px;
         font-family: 'Manrope', sans-serif;
-        color: #000000;
+        color: #ca7612;
       }
       #minutos{
         font-size: 70px;
         font-family: 'Manrope', sans-serif;
-        color: #000000;
+        color: #ca7612;
       }
       #segundos{
         font-size: 70px;
@@ -158,10 +159,12 @@
 --------------------------------------------------------------*/
 #regalos{
   .container-fluid{
-    background-color: #282828;
+    background-image: url(../media/back/back_regalos.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-  .container{
-    background:#282828;
+  .container{  
     padding-top: 20px;
     padding-bottom: 50px;
     .card{
@@ -297,11 +300,12 @@
     text-align: center;
     h2{
       text-align: center;
-      color: white;    
-      font-family: 'Imperial Script', cursive;
-      font-size: 36px;
+      color: rgb(0, 0, 0);    
+      font-family: 'Manrope', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
     }
-  }  
+  }
 }
 /*--------------------------------------------------------------
 # footer
