@@ -37,8 +37,8 @@
     .contador{    
       text-align: center; 
       .cartel{      
-        background-color: #ebb4b7;      
-        border-top: 5px solid #d59798;
+        background-color: #818181;      
+        border-top: 5px solid #1d1c1c;
         opacity: 0.7;        
         width: 130px;
         margin: 5px;
@@ -73,8 +73,9 @@
       }
       #dias{
         font-size: 70px;
-        font-family: 'Manrope', sans-serif;
-        color: #ff0000;   
+        font-family: 'Manrope', sans-serif,;
+        font-weight: bold;
+        color: #000000;   
       }
       #horas{
         font-size: 70px;
